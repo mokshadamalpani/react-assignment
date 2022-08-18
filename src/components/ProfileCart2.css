@@ -1,0 +1,58 @@
+.box {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: 80px;
+}
+
+.pf-card {
+    width: 91%;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-img {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    padding-right: 25px;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: block;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.p-data {
+    margin-bottom: 7px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width:420px) {
+    .row{
+        flex-direction: column;
+    }
+    
+}
